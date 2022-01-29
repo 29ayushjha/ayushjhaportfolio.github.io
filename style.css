@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(149, 183, 223);
+    width: 300px;
+    height: 200vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding: 22px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 88vw;
+    padding: 23px;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infoContainer{
+    background-color: rgb(45, 192, 131);
+    height: 55vh;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 7px;
+    border-radius: 14px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: black;
+}
+
+.devPic1 img{
+    height: 55vh;
+}
+
+.contactform{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 50px;
+    padding-top: 100px;
+}
+
+.contactform h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 50px;
+}
+
+.contactform form div input{
+    padding: 2px 0;
+    margin-top: 15px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.contactform h3{
+    margin-top: 50px;
+}
+
+.contactform button{
+    margin-top: 35px;
+    padding: 7px;
+    border-radius: 14px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 184, 219);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contactform button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(43, 184, 219);
+}
+
+.hobbiesContainer{
+    background-color: rgb(45, 192, 131);
+    height: 25vh;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbypic img{
+    height: 25vh;
+}
+
+.hobbies{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 35px;
+}
+
+.skillContainer{
+    background-color: rgb(45, 192, 131);
+    height: 25vh;
+    width: 80vw;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 27px;
+}
+
+.footballi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.football{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.yogi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.yog{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.booksi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.books{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.prommi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.programming{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.langs{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.designi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.design{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.soft1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.videoi img{
+    width: 5vw;
+    margin-left: 15px;
+}
+
+.video{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.soft2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.aboutme{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.para{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 145px;
+}
+
